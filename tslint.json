@@ -3,7 +3,6 @@
         "align": [
             true,
             "parameters",
-            "arguments",
             "statements"
         ],
         "ban": false,
@@ -42,13 +41,12 @@
             "check-open-brace",
             "check-whitespace"
         ],
-        "quotemark": [true, "single", "jsx-double"],
+        "quotemark": false,
         "radix": false,
         "semicolon": false,
         "switch-default": true,
 
         "trailing-comma": false,
-
         "triple-equals": [ true, "allow-null-check" ],
         "typedef": [
             true,
