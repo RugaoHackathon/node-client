@@ -1,0 +1,10 @@
+*.js.map
+*.js
+node_modules/
+.idea/
+dist/
+config.json
+config.js.map
+test.json
+yarn.lock
+.vscode

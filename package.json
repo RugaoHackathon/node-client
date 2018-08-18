@@ -1,0 +1,20 @@
+{
+  "name": "ras-node",
+  "version": "1.0.0",
+  "description": "Alicloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && node ./index.js"
+  },
+  "author": "Laphets",
+  "license": "ISC",
+  "dependencies": {
+    "aliyun-iot-device-sdk": "^0.2.17"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  }
+}
