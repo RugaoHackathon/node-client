@@ -1,10 +1,7 @@
 import aliyunIot = require('aliyun-iot-device-sdk');
+import { deviceInfo } from './config'
 
-const device = aliyunIot.device({
-    productKey: 'a1nboZrv7ah',
-    deviceName: 'RasPi3',
-    deviceSecret: 'cO9ZceSpqIO1APb2sDVpLbjqlrEeS9d6'
-});
+const device = aliyunIot.device(deviceInfo);
 
 device.on('connect', () => {
     console.log('connect successfully!');
