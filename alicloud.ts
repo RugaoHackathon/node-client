@@ -11,4 +11,7 @@ device.on('message', (topic, payload) => {
     console.log(topic, payload.toString());
 });
 
+device.on('error', (err) => {
+    console.log('error', err);
+});
 export default device
